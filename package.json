@@ -1,0 +1,16 @@
+{
+  "name": "unit-coverter-with-user-input",
+  "version": "1.0.0",
+  "description": "Make the conversion easier between (metres, feet, centimetres, millimetres, inches, yards & kilometres)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"ABDUL HADI KHAN KHOKHAR\"",
+  "license": "MIT",
+  "keywords": [],
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
