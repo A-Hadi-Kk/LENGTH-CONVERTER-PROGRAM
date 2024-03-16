@@ -36,7 +36,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mKm = 0.001;
             let output = input1.value * mKm;
@@ -47,7 +47,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mCm = 100;
             let output = input1.value * mCm;
@@ -58,7 +58,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mFt = 3.281;
             let output = input1.value * mFt;
@@ -69,7 +69,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mMm = 1000;
             let output = input1.value * mMm;
@@ -80,7 +80,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mInc = 39.37;
             let output = input1.value * mInc;
@@ -91,7 +91,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mYar = 1.094;
             let output = input1.value * mYar;
@@ -117,7 +117,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ftKm = 3281;
             let output = input1.value / ftKm;
@@ -128,7 +128,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ftCm = 30.48;
             let output = input1.value * ftCm;
@@ -139,7 +139,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ftm = 3.281;
             let output = input1.value / ftm;
@@ -150,7 +150,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ftMm = 304.8;
             let output = input1.value * ftMm;
@@ -161,7 +161,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ftInc = 12;
             let output = input1.value * ftInc;
@@ -172,7 +172,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ftYd = 3;
             let output = input1.value / ftYd;
@@ -198,7 +198,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let cmKm = 100000;
             let output = input1.value / cmKm;
@@ -209,7 +209,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let cmm = 100;
             let output = input1.value / cmm;
@@ -220,7 +220,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let cmFt = 30.48;
             let output = input1.value / cmFt;
@@ -231,7 +231,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let cmMm = 10;
             let output = input1.value * cmMm;
@@ -242,7 +242,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let cmInc = 2.54;
             let output = input1.value / cmInc;
@@ -253,7 +253,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let cmYd = 91.44;
             let output = input1.value / cmYd;
@@ -279,7 +279,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mmKm = 1000000;
             let output = input1.value / mmKm;
@@ -290,7 +290,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mmM = 1000;
             let output = input1.value / mmM;
@@ -301,7 +301,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mmFt = 304.8;
             let output = input1.value / mmFt;
@@ -312,7 +312,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mmCm = 10;
             let output = input1.value / mmCm;
@@ -323,7 +323,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mmInc = 25.4;
             let output = input1.value / mmInc;
@@ -334,7 +334,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let mmYd = 914.4;
             let output = input1.value / mmYd;
@@ -360,7 +360,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let incKm = 39370;
             let output = input1.value / incKm;
@@ -371,7 +371,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let incCm = 2.54;
             let output = input1.value * incCm;
@@ -382,7 +382,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let incFt = 12;
             let output = input1.value / incFt;
@@ -393,7 +393,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let incMm = 25.4;
             let output = input1.value * incMm;
@@ -404,7 +404,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let incM = 39.37;
             let output = input1.value / incM;
@@ -415,7 +415,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let incYd = 36;
             let output = input1.value / incYd;
@@ -441,7 +441,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ydKm = 1094;
             let output = input1.value / ydKm;
@@ -452,7 +452,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ydCm = 91.44;
             let output = input1.value * ydCm;
@@ -463,7 +463,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ydFt = 3;
             let output = input1.value * ydFt;
@@ -474,7 +474,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ydMm = 914.4;
             let output = input1.value * ydMm;
@@ -485,7 +485,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ydInc = 36;
             let output = input1.value * ydInc;
@@ -496,7 +496,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let ydM = 1.094;
             let output = input1.value / ydM;
@@ -522,7 +522,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let kmM = 1000;
             let output = input1.value * kmM;
@@ -533,7 +533,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let kmCm = 100000;
             let output = input1.value * kmCm;
@@ -544,7 +544,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let kmFt = 3281;
             let output = input1.value * kmFt;
@@ -555,7 +555,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let kmMm = 1000000;
             let output = input1.value * kmMm;
@@ -566,7 +566,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let kmInc = 39370;
             let output = input1.value * kmInc;
@@ -577,7 +577,7 @@ while (conversionround) {
             const input1 = await inquirer.prompt({
                 name: "value",
                 type: "number",
-                message: "Enter the length:\n",
+                message: "Enter the length in numbers:\n",
             });
             let kmYd = 1094;
             let output = input1.value * kmYd;
