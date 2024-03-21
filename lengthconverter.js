@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 const lengthtypes = ["metres", "foots", "centimetres", "millimetres", "inches", "yards", "kilometres", "Exit"];
 //For Running Continuosly

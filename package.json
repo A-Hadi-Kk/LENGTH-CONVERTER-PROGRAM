@@ -1,9 +1,10 @@
 {
-  "name": "unit-coverter-with-user-input",
-  "version": "1.0.0",
+  "name": "ahk-length-converter-with-user-input",
+  "version": "1.0.1",
   "description": "Make the conversion easier between (metres, feet, centimetres, millimetres, inches, yards & kilometres)",
   "main": "index.js",
   "type": "module",
+  "bin": "lengthconverter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
